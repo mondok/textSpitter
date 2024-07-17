@@ -14,6 +14,7 @@ class TextRendersController < ApplicationController
     0.upto(copies.to_i).each do |p|
       @content += content
     end
+    @content = @content.gsub('images/cover.jpg',  "cover.jpg")
   end
 
 end
