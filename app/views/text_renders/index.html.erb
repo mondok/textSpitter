@@ -1,9 +1,10 @@
 <p style="color: green"><%= notice %></p>
 
 <div>
-<% @reader.pages.each do |page| %>
-    <p>
-<%=   page.text.gsub("\n", "<br>").html_safe %>
-    </p>
-<% end %>
+  <%= @content.html_safe %>
+<%# @reader.pages.each do |page| %>
+<!--    <p>-->
+<%#=   page.text.gsub("\n", "<br>").html_safe %>
+<!--    </p>-->
+<%# end %>
 </div>
