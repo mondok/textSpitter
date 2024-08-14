@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To replace the content, update the file `pg2600-images.html` that is found in the public folder.  
 
-Things you may want to cover:
+To run, use `rails server` at the command line.  The `copies` parameter determines how many copies are rendered.  All the code can be found in `TextRendersController`.  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
